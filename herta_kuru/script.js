@@ -8,9 +8,9 @@ let firstSquish = true;
 const LANGUAGES = {
     "en": {
         audioList: [
-            "audio/ja/kuruto.mp3",
-            "audio/ja/kuru1.mp3",
-            "audio/ja/kuru2.mp3",
+            "herta_kuru/audio/ja/kuruto.mp3",
+            "herta_kuru/audio/ja/kuru1.mp3",
+            "herta_kuru/audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "Welcome to herta kuru~",
@@ -23,13 +23,13 @@ const LANGUAGES = {
             "footer-repository-text": "You can check out the GitHub repository here:",
             "footer-repository-text-2": "herta_kuru repo"
         },
-        cardImage: "img/card_en.jpg"
+        cardImage: "herta_kuru/img/card_en.jpg"
     }, "cn": {
         audioList: [
-            "audio/cn/gululu.mp3",
-            "audio/cn/gururu.mp3",
-            "audio/cn/转圈圈.mp3",
-            "audio/cn/转圈圈咯.mp3",
+            "herta_kuru/audio/cn/gululu.mp3",
+            "herta_kuru/audio/cn/gururu.mp3",
+            "herta_kuru/audio/cn/转圈圈.mp3",
+            "herta_kuru/audio/cn/转圈圈咯.mp3",
         ],
         texts: {
             "page-title": "黑塔转圈圈~",
@@ -42,13 +42,13 @@ const LANGUAGES = {
             "footer-repository-text": "源代码在此：",
             "footer-repository-text-2": "herta_kuru 仓库"
         },
-        cardImage: "img/card_cn.jpg"
+        cardImage: "herta_kuru/img/card_cn.jpg"
     },
     "ja": {
         audioList: [
-            "audio/ja/kuruto.mp3",
-            "audio/ja/kuru1.mp3",
-            "audio/ja/kuru2.mp3",
+            "herta_kuru/audio/ja/kuruto.mp3",
+            "herta_kuru/audio/ja/kuru1.mp3",
+            "herta_kuru/audio/ja/kuru2.mp3",
         ],
         texts: {
             "page-title": "ヘルタクルへようこそ~",
@@ -61,7 +61,7 @@ const LANGUAGES = {
             "footer-repository-text": "こちはこのページGitHubリポジトリ:",
             "footer-repository-text-2": "herta_kuru リポジトリ"
         },
-        cardImage: "img/card_ja.jpg"
+        cardImage: "herta_kuru/img/card_ja.jpg"
     }
     // TODO Korean (text&voice&card) support
 };
@@ -256,7 +256,7 @@ function animateHerta() {
 
     const random = Math.floor(Math.random() * 2) + 1;
     const elem = document.createElement("img");
-    elem.src = `img/hertaa${random}.gif`;
+    elem.src = `herta_kuru/img/hertaa${random}.gif`;
     elem.style.position = "absolute";
     elem.style.right = "-500px";
     elem.style.top = counterButton.getClientRects()[0].bottom + scrollY - 430 + "px"
