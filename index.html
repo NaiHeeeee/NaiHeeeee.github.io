@@ -13,15 +13,32 @@
         <title>NaiHe的主页</title> 
     </head> 
     <body>
-            <h1 style="text-align: center;">
-                <br/>NaiHe
-            </h1>       
-            <p style="text-align: center;">
-                NaiHe的个人主页(导航)
-            </p>        
+      <style>
+        .container {
+          display: flex;
+          justify-content: center;
+        }
+      
+        .centered-list {
+          display: flex;
+          justify-content: center;
+          list-style-type: none;
+          padding: 0;
+        }
+      
+        .centered-list li {
+          margin: 0 10px;
+        }
+      </style>
+      <h1 style="text-align: center;">
+          <br/>NaiHe
+      </h1>       
+      <p style="text-align: center;">
+          NaiHe的个人主页(导航)
+      </p>        
         <div>
             <nav>
-                <ul>
+              <ul class="centered-list">
                     <li>
                         <a href="https://github.com/NaiHeeeee/" title="Github" target="_blank">
                             <span>Github</span>
