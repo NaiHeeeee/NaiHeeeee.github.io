@@ -56,11 +56,11 @@ a {
 }
 
 .bio > span {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: auto; 
-  }
+	font-weight: 300;
+	letter-spacing: 1.4px;
+	opacity: 0;
+	transition: all 1s .5s;
+}
 
 .bio > span.emphasis {
 	font-size: 20px;
@@ -70,6 +70,7 @@ a {
 .bio.ready > span {
 	opacity: 1;
 }
+
 
 .content-container {
 	position: relative;
