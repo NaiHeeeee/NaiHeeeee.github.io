@@ -1,6 +1,4 @@
-# NaiHeの网站
+# NaiHeの个人主页
 
-🌐 My Home Page : [NaiHeのNest](https://www.naihe.live)
-
-
+🌐 My Website : [NaiHeのNest](https://www.naihe.live)
 
