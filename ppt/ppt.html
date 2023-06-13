@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <title>播放PPTX文件</title>
+  <script>
+    var slideIndex = 1; // 当前幻灯片索引
+
+    function showSlide(n) {
+      var slides = document.getElementsByClassName("ppt-slide");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+
+    function previousSlide() {
+      showSlide(slideIndex -= 1);
+    }
+
+    function nextSlide() {
+      showSlide(slideIndex += 1);
+    }
+
+    function endPresentation() {
+      var slides = document.getElementsByClassName("ppt-slide");
+      for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+    }
+  </script>
 </head>
 <body>
-<div id="powerpoint"></div> 
-<script>
-  var powerpoint = new Office.Presentation('powerpoint', './ppt.pptx'); 
-  powerpoint.slideshow();
-  powerpoint.onSlideChange = function(e){
-    console.log('Now showing slide ' + e.slide.slideNumber); 
-  };
-</script> 
+  <embed src="./ppt.pptx" type="application/vnd.openxmlformats-officedocument.presentationml.presentation" width="100%" height="500px" class="ppt-slide" />
+
+  <button onclick="previousSlide()">上一张</button>
+  <button onclick="nextSlide()">下一张</button>
+  <button onclick="endPresentation()">结束放映</button>
+
+  <script>
+    showSlide(slideIndex); // 显示第一张幻灯片
+  </script>
 </body>
 </html>
