@@ -1,4 +1,3 @@
-html
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +6,7 @@ html
 <body>
 <div id="powerpoint"></div> 
 <script>
-  var powerpoint = new Office.Presentation('powerpoint', './ppt.pptx'); 
+  var powerpoint = new Office.Presentation('powerpoint', 'https://example.com/presentation.pptx'); 
   powerpoint.slideshow();
   powerpoint.onSlideChange = function(e){
     console.log('Now showing slide ' + e.slide.slideNumber); 
