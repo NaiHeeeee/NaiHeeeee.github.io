@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>图像处理:人数检测</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+
+</head>
+
+<body>
+
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>图像处理</h1>
+
+				<br>
+				<br>
+
+				<h3>人数检测
+				</h3>
+				<p>
+					<br>
+					<br>
+					<br>
+					<small>小组成员：余琦弘 王贺强 
+						<br>
+						<br>
+						https://github.com/NaiHeeeee/PeopleDetection
+					</small>
+				</p>
+			</section>
+			<section>
+				<section>
+					<h1>数据集</h1>
+					<br>
+					<a href="#" class="navigate-down">
+						<img width="80" height="120"
+							data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+					</a>
+				</section>
+				<section>
+					<p>
+						<br>
+						中国科学院自动化研究所（CASIA）
+						<br />
+						<br>
+						CAS-PEAL-R1 Face Database
+						<br />
+						<br>
+						http://www.jdl.link/peal/
+						<br />
+					</p>
+				</section>
+				<section>
+					<p>
+					<h2>
+						数据集信息
+					</h2>
+					<img src="https://raw.githubusercontent.com/NaiHeeeee/TyporaImg/main/Img/202306051133581.png"
+						alt="图片" style="zoom: 160%;">
+					</p>
+				</section>
+				<section>
+					<p style="text-align: left;">
+						<br>
+						一个整个CAS-PEAL人脸数据库的子集由CAS-PEAL-R1命名，现已公开。
+						CAS-PEAL-R1包含30900张图像，1040个受试者。
+						对于每个主题，21种不同姿势的图像没有包括任何其他变体。
+						其余图像在分布均为正面姿势图像。
+						其中，379名受试者有具有6种不同表情的图像。
+						438名受试者的图像佩戴6不同的配件。
+						233名受试者在至少10种照明下拍摄图像变化，最多31次照明变化。
+						297名受试者有图像对2到4种不同的背景。
+						此外，66名受试者的图像记录在 每 6 个月进行两次会议。
+						<br>
+					</p>
+				</section>
+				<section>
+					<p>
+						下面是用于本项目的数据集的图片示例
+					</p>
+				</section>
+				<section>
+					训练集（train）
+					<p>
+						<img src=".\img\train.png">
+					</p>
+				</section>
+				<section>
+					验证集（val）
+					<p>
+						<img src=".\img\val.png">
+					</p>
+				</section>
+				<section>
+					测试集（test）
+					<p>
+						<img src=".\img\test.png">
+					</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>应用场景</h1>
+					<br>
+					<a href="#" class="navigate-down">
+						<img width="80" height="120"
+							data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+					</a>
+				</section>
+				<section>
+					<p style="text-align: left;">
+						<br>
+						可以用于教室的人数统计，计算到课率
+						<br>
+						<br>
+						可以用于公共场所的人流量统计,估计人流量
+						<br>
+						<br>
+						可以用于零售环境中，可以计算特定区域的顾客数量，确定高峰时段
+						<br>
+					</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>用到的技术</h1>
+					<br>
+					<a href="#" class="navigate-down">
+						<img width="80" height="120"
+							data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+					</a>
+				</section>
+				<section>
+					<h2>训练模型用到的技术</h2>
+					<p style="text-align: left;">
+						<br>
+						OpenCV：用于图像处理
+						<br>
+						<br>
+						Keras：深度学习框架,用于构建和训练模型
+						<br>
+						<br>
+						ResNet50：一个在ImageNet上预训练的卷积神经网络模型
+						<br>
+						<br>
+						数据增强：使用ImageDataGenerator对图像进行缩放、剪切、翻转等操作,以生成更多训练数据
+						<br>
+						<br>
+						Adam优化器：用于训练深度学习模型的优化算法
+						<br>
+						<br>
+					</p>
+
+				</section>
+				<section>
+					<h2>进行人数检测用到的技术</h2>
+					<p style="text-align: left;">
+						<br>
+						OpenCV：读取和操作图像、转换颜色空间、图像增强、应用人脸检测模型检测人脸，并在检测到的人脸周围绘制矩形框
+						<br>
+						<br>
+						PyQt5：用于构建GUI窗口，QFileDialog用于选择要检测的图像，QImage和QPixmap用于在GUI中显示原始图像和处理后的图像
+						<br>
+						<br>
+						Keras：用于加载保存的人脸检测模型
+						<br>
+					</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>运行效果</h1>
+					<br>
+					<a href="#" class="navigate-down">
+						<img width="80" height="120"
+							data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+					</a>
+				</section>
+				<section>
+					<h2>训练模型过程</h2>
+					<p>
+						<img src="./img/training.png" alt="图片" style="zoom: 100%;">
+				</section>
+				<section>
+					<h2>人数检测前效果</h2>
+					<p>
+						<img src="./img/test_before.png" alt="图片" style="zoom: 100%;">
+					</p>
+				</section>
+				<section>
+					<h2>人数检测后效果</h2>
+					<p>
+						<img src="./img/test_after.png" alt="图片" style="zoom: 100%;">
+					</p>
+				</section>
+			</section>
+
+
+			<section>
+				<section>
+					<h1>不足之处</h1>
+					<p>
+						<br>
+						<a href="#" class="navigate-down">
+							<img width="80" height="120"
+								data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</p>
+				</section>
+				<section>
+					<h2 style="text-align: left;">
+						不足:
+					</h2>
+					<p style="text-align: left;">
+						<br>
+						1.数据集较大，训练模型时间长为了缩短训练时间，只好
+						减少用于训练的训练集图片，使得训练得到的模型在使
+						用时精度不高，尤其是低分辨率图片
+						<br>
+						<br>
+						<br>
+						2.数据集中侧脸图片较少,对包含侧脸的图片的检测效果不好
+						<br>
+					</p>
+				</section>
+			</section>
+
+			<section>
+				<h1>谢谢</h1>
+			</section>
+
+		</div>
+
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, condition: function () { return !!document.querySelector('pre code'); }, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+
+	</script>
+
+</body>
+
+</html>
