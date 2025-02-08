@@ -92,24 +92,6 @@
   </url>
   
   <url>
-    <loc>https://naihee.cn/box/animation/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.cn/box/nav/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://naihee.cn/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -119,16 +101,7 @@
   </url>
   
   <url>
-    <loc>https://naihee.cn/box/gallery/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.cn/social/fcircle/index.html</loc>
+    <loc>https://naihee.cn/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -146,7 +119,34 @@
   </url>
   
   <url>
+    <loc>https://naihee.cn/box/nav/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.cn/box/gallery/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naihee.cn/site/census/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.cn/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
