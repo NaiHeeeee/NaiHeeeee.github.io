@@ -6,7 +6,7 @@
   <link href="https://naihee.com/atom.xml" rel="self"/>
   
   <link href="https://naihee.com/"/>
-  <updated>2025-03-07T05:09:58.703Z</updated>
+  <updated>2025-03-07T06:14:13.257Z</updated>
   <id>https://naihee.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://naihee.com/7138682c/"/>
     <id>https://naihee.com/7138682c/</id>
     <published>2025-03-07T00:55:17.000Z</published>
-    <updated>2025-03-07T05:09:58.703Z</updated>
+    <updated>2025-03-07T06:14:13.257Z</updated>
     
     <content type="html"><![CDATA[<style>    .aspect-ratio {        position: relative;        width: 100%;        height: 100vh;        padding-bottom: 100%;        }              .aspect-ratio iframe {        position: absolute;        width: 100%;        height: 100vh;        left: 0;        top: 0;        }    </style><div align=center class="aspect-ratio">    <iframe src="https://ac.naihee.cn"></iframe></div>]]></content>
     
@@ -29,6 +29,8 @@
     <summary type="html">云空调</summary>
     
     
+    
+    <category term="在线工具" scheme="https://naihee.com/categories/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7/"/>
     
     
     <category term="工具" scheme="https://naihee.com/tags/%E5%B7%A5%E5%85%B7/"/>
@@ -40,7 +42,7 @@
     <link href="https://naihee.com/98579906/"/>
     <id>https://naihee.com/98579906/</id>
     <published>2023-12-30T06:57:57.000Z</published>
-    <updated>2025-03-07T05:09:58.703Z</updated>
+    <updated>2025-03-07T06:14:13.257Z</updated>
     
     <content type="html"><![CDATA[<iframe src='/pdfjs/web/viewer.html?file=' style='width:100%;height:500px'></iframe>]]></content>
     
@@ -49,10 +51,12 @@
     
     
     
+    <category term="在线工具" scheme="https://naihee.com/categories/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="pdf" scheme="https://naihee.com/tags/pdf/"/>
     
     <category term="工具" scheme="https://naihee.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="pdf" scheme="https://naihee.com/tags/pdf/"/>
     
   </entry>
   

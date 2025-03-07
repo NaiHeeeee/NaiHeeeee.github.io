@@ -11,6 +11,12 @@
         <content type="html"><![CDATA[<style>    .aspect-ratio {        position: relative;        width: 100%;        height: 100vh;        padding-bottom: 100%;        }              .aspect-ratio iframe {        position: absolute;        width: 100%;        height: 100vh;        left: 0;        top: 0;        }    </style><div align=center class="aspect-ratio">    <iframe src="https://ac.naihee.cn"></iframe></div>]]></content>
       
       
+      <categories>
+          
+          <category> 在线工具 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -30,12 +36,18 @@
         <content type="html"><![CDATA[<iframe src='/pdfjs/web/viewer.html?file=' style='width:100%;height:500px'></iframe>]]></content>
       
       
+      <categories>
+          
+          <category> 在线工具 </category>
+          
+      </categories>
+      
       
         <tags>
             
-            <tag> pdf </tag>
-            
             <tag> 工具 </tag>
+            
+            <tag> pdf </tag>
             
         </tags>
       
