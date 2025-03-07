@@ -29,6 +29,33 @@
   </url>
   
   <url>
+    <loc>https://naihee.com/personal/about/index.html</loc>
+    
+    <lastmod>2025-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/personal/bb/index.html</loc>
+    
+    <lastmod>2025-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/personal/house/index.html</loc>
+    
+    <lastmod>2025-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naihee.com/site/census/index.html</loc>
     
     <lastmod>2025-03-07</lastmod>
@@ -57,33 +84,6 @@
   
   <url>
     <loc>https://naihee.com/social/link/index.html</loc>
-    
-    <lastmod>2025-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/personal/about/index.html</loc>
-    
-    <lastmod>2025-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/personal/bb/index.html</loc>
-    
-    <lastmod>2025-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/personal/house/index.html</loc>
     
     <lastmod>2025-03-07</lastmod>
     
