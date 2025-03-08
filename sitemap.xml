@@ -137,6 +137,15 @@
   </url>
   
   <url>
+    <loc>https://naihee.com/box/animation/index.html</loc>
+    
+    <lastmod>2025-03-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naihee.com/box/gallery/index.html</loc>
     
     <lastmod>2025-03-08</lastmod>
@@ -147,15 +156,6 @@
   
   <url>
     <loc>https://naihee.com/box/nav/index.html</loc>
-    
-    <lastmod>2025-03-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/box/animation/index.html</loc>
     
     <lastmod>2025-03-08</lastmod>
     
