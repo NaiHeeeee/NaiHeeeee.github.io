@@ -6,7 +6,7 @@
   <link href="https://naihee.com/atom.xml" rel="self"/>
   
   <link href="https://naihee.com/"/>
-  <updated>2025-03-08T12:35:23.679Z</updated>
+  <updated>2025-03-08T14:12:41.752Z</updated>
   <id>https://naihee.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>musicplayer</title>
+    <title>音乐播放器</title>
     <link href="https://naihee.com/75a8ed31/"/>
     <id>https://naihee.com/75a8ed31/</id>
     <published>2025-03-08T06:16:10.000Z</published>
-    <updated>2025-03-08T12:35:23.679Z</updated>
+    <updated>2025-03-08T14:12:41.752Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="播放器地址"><strong>播放器地址</strong></h3><p><strong><a href="https://music.naihee.cn">https://music.naihee.cn</a> / <a href="https://naihee.com/life/music/">https://naihee.com/life/music</a></strong></p><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">基本操作:</span></span><br><span class="line">Space空格键：暂停/播放音乐</span><br><span class="line">上/下方向键：增加/减少音量</span><br><span class="line">左/右方向键：上一曲/下一曲</span><br><span class="line"></span><br><span class="line"><span class="section">参数说明:</span></span><br><span class="line"><span class="section">server: 数据源</span></span><br><span class="line">     netease 网易云音乐(默认)</span><br><span class="line">     tencent QQ音乐</span><br><span class="line">注：由于服务器在非中国大陆地区，不保证 QQ音乐 解析可用</span><br><span class="line">支持解析 网易云音乐 VIP 歌曲</span><br><span class="line"><span class="section">type: 类型</span></span><br><span class="line">     name 歌曲名</span><br><span class="line">     artist 歌手</span><br><span class="line">     url 链接</span><br><span class="line">     pic 封面</span><br><span class="line">     lrc 歌词</span><br><span class="line">     song 单曲</span><br><span class="line">     playlist 歌单</span><br><span class="line"><span class="section">id: 类型ID（封面ID/单曲ID/歌单ID）</span></span><br></pre></td></tr></table></figure><h3 id="API地址"><strong>API地址</strong></h3><p><strong><a href="https://meting.naihee.cn/api">https://meting.naihee.cn/api</a></strong></p><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">默认参数:</span></span><br><span class="line">  type: playlist</span><br><span class="line">  id: 3778678</span><br><span class="line">  server: netease</span><br></pre></td></tr></table></figure><h3 id="api示例"><strong>api示例</strong></h3><p><a href="https://meting.naihee.cn/api?type=url&amp;id=1969519579">https://meting.naihee.cn/api?type=url&amp;id=1969519579</a><br><a href="https://meting.naihee.cn/api?type=url&amp;id=416892104">https://meting.naihee.cn/api?type=url&amp;id=416892104</a><br><a href="https://meting.naihee.cn/api?type=song&amp;id=591321">https://meting.naihee.cn/api?type=song&amp;id=591321</a><br><a href="https://meting.naihee.cn/api?type=playlist&amp;id=2619366284">https://meting.naihee.cn/api?type=playlist&amp;id=2619366284</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="一个基于Aplayer和MetingJS的静态音乐播放器">一个基于<a href="https://github.com/DIYgod/APlayer">Aplayer</a>和<a href="https://github.com/metowolf/MetingJS">MetingJS</a>的静态音乐播放器</h2><h3 id="播放器地址"><strong>播放器地址</strong></h3><p><strong><a href="https://music.naihee.cn">https://music.naihee.cn</a> / <a href="https://naihee.com/life/music/">https://naihee.com/life/music</a></strong></p><h4 id="基本操作">基本操作</h4><p><code>Space空格键</code>：暂停/播放音乐</p><p><code>上/下方向键</code>：增加/减少音量</p><p><code>左/右方向键</code>：上一曲/下一曲</p><h4 id="参数说明">参数说明</h4><ol><li><p><code>server</code>：数据源</p><p><code>netease </code>网易云音乐(默认)  <em>支持 网易云音乐 VIP 歌曲</em></p><p><code>tencent </code>QQ音乐</p><p><em>注：由于服务器在非中国大陆地区(Vercel)，不保证 QQ音乐 解析可用</em></p></li><li><p><code>id</code>：播放列表的id，可以从音乐歌单分享的链接中获取</p></li><li><p><code>type</code>（可选）：</p><p>播放列表的类型，例如song（单曲）, playlist（歌单，默认）, album（专辑）, search（搜索结果）, artist（歌手）</p></li></ol><h4 id="默认播放参数">默认播放参数</h4><p>​    <code>id=3778678&amp;server=netease</code>(<a href="https://music.163.com/#/discover/toplist?id=3778678">网易云热歌</a>)</p><h3 id="MetingAPI地址"><strong>MetingAPI地址</strong></h3><p><strong><a href="https://meting.naihee.cn/api">https://meting.naihee.cn/api</a></strong></p><h4 id="参数说明-2">参数说明</h4><ol><li><p><code>server</code>： 数据源</p><p><code>netease </code> 网易云音乐(默认) <em>支持 网易云音乐 VIP 歌曲</em></p><p><code>tencent</code>  QQ音乐</p><p><em>注：由于服务器在非中国大陆地区(Vercel)，不保证 QQ音乐 解析可用</em><br>​</p></li><li><p><code>type</code>： 类型</p><ul><li><code>name</code> 歌曲名</li><li><code>artist</code> 歌手</li><li><code>url</code> 链接</li><li><code>pic</code> 封面</li><li><code>lrc</code> 歌词</li><li><code>song</code> 单曲</li><li><code>playlist</code> 歌单</li></ul></li><li><p><code>id</code>：类型ID（封面ID/单曲ID/歌单ID）</p></li></ol><h4 id="默认参数">默认参数:</h4><p>​    <code>type: playlist</code><br>​    <code>id: 3778678</code><br>​    <code>server: netease</code></p><h3 id="api示例"><strong>api示例</strong></h3><p><a href="https://meting.naihee.cn/api?type=url&amp;id=1969519579">https://meting.naihee.cn/api?type=url&amp;id=1969519579</a></p><p><a href="https://meting.naihee.cn/api?type=url&amp;id=416892104">https://meting.naihee.cn/api?type=url&amp;id=416892104</a></p><p><a href="https://meting.naihee.cn/api?type=song&amp;id=591321">https://meting.naihee.cn/api?type=song&amp;id=591321</a></p><p><a href="https://meting.naihee.cn/api?type=playlist&amp;id=2619366284">https://meting.naihee.cn/api?type=playlist&amp;id=2619366284</a></p>]]></content>
     
     
     <summary type="html">自建音乐播放器</summary>
@@ -48,7 +48,7 @@
     <link href="https://naihee.com/7138682c/"/>
     <id>https://naihee.com/7138682c/</id>
     <published>2025-03-07T00:55:17.000Z</published>
-    <updated>2025-03-08T12:35:23.679Z</updated>
+    <updated>2025-03-08T14:12:41.752Z</updated>
     
     <content type="html"><![CDATA[<style>    .aspect-ratio {        position: relative;        width: 100%;        height: 100vh;        padding-bottom: 100%;        }              .aspect-ratio iframe {        position: absolute;        width: 100%;        height: 100vh;        left: 0;        top: 0;        }    </style><div align=center class="aspect-ratio">    <iframe src="https://ac.naihee.cn"></iframe></div>]]></content>
     
@@ -69,7 +69,7 @@
     <link href="https://naihee.com/98579906/"/>
     <id>https://naihee.com/98579906/</id>
     <published>2023-12-30T06:57:57.000Z</published>
-    <updated>2025-03-08T12:35:23.679Z</updated>
+    <updated>2025-03-08T14:12:41.752Z</updated>
     
     <content type="html"><![CDATA[<style>    /* 隐藏小猫咪 */    .neko,    #myscoll {            display: none !important;    }    /* 隐藏FPS */    #fps {        display: none !important;    }</style><iframe src='/pdfjs/web/viewer.html?file=' frameborder="0" style="width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 999;"></iframe>]]></content>
     
