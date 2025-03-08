@@ -6,7 +6,7 @@
   <link href="https://naihee.com/atom.xml" rel="self"/>
   
   <link href="https://naihee.com/"/>
-  <updated>2025-03-07T13:09:12.793Z</updated>
+  <updated>2025-03-08T03:08:51.255Z</updated>
   <id>https://naihee.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://naihee.com/7138682c/"/>
     <id>https://naihee.com/7138682c/</id>
     <published>2025-03-07T00:55:17.000Z</published>
-    <updated>2025-03-07T13:09:12.793Z</updated>
+    <updated>2025-03-08T03:08:51.255Z</updated>
     
     <content type="html"><![CDATA[<style>    .aspect-ratio {        position: relative;        width: 100%;        height: 100vh;        padding-bottom: 100%;        }              .aspect-ratio iframe {        position: absolute;        width: 100%;        height: 100vh;        left: 0;        top: 0;        }    </style><div align=center class="aspect-ratio">    <iframe src="https://ac.naihee.cn"></iframe></div>]]></content>
     
@@ -42,9 +42,9 @@
     <link href="https://naihee.com/98579906/"/>
     <id>https://naihee.com/98579906/</id>
     <published>2023-12-30T06:57:57.000Z</published>
-    <updated>2025-03-07T13:09:12.792Z</updated>
+    <updated>2025-03-08T03:08:51.255Z</updated>
     
-    <content type="html"><![CDATA[<iframe src='/pdfjs/web/viewer.html?file=' style='width:100%;height:500px'></iframe>]]></content>
+    <content type="html"><![CDATA[<style>    /* 隐藏小猫咪 */    .neko,    #myscoll {            display: none !important;    }    /* 隐藏FPS */    #fps {        display: none !important;    }</style><iframe src='/pdfjs/web/viewer.html?file=' frameborder="0" style="width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 999;"></iframe>]]></content>
     
     
     <summary type="html">在线PDF</summary>

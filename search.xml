@@ -33,7 +33,7 @@
       <link href="/98579906/"/>
       <url>/98579906/</url>
       
-        <content type="html"><![CDATA[<iframe src='/pdfjs/web/viewer.html?file=' style='width:100%;height:500px'></iframe>]]></content>
+        <content type="html"><![CDATA[<style>    /* 隐藏小猫咪 */    .neko,    #myscoll {            display: none !important;    }    /* 隐藏FPS */    #fps {        display: none !important;    }</style><iframe src='/pdfjs/web/viewer.html?file=' frameborder="0" style="width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 999;"></iframe>]]></content>
       
       
       <categories>
