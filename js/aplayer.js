@@ -1,1 +1,0 @@
-var observer=new MutationObserver((function(e){var r=document.querySelector(".aplayer-icon-lrc");r&&(setTimeout((function(){r.click()}),1),observer.disconnect())}));
