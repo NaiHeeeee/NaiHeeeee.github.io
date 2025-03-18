@@ -1,0 +1,11 @@
+**/*.html
+    404.html
+    .github/
+    download/
+    ads.txt
+    CNAME
+    robots.txt
+    LICENSE
+    vercel.json
+    README.md
+    
