@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>https://naihee.com/site/census/index.html</loc>
+    
+    <lastmod>2025-03-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naihee.com/site/status/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
@@ -83,6 +92,24 @@
   </url>
   
   <url>
+    <loc>https://naihee.com/life/games/index.html</loc>
+    
+    <lastmod>2025-03-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/life/movies/index.html</loc>
+    
+    <lastmod>2025-03-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naihee.com/life/music/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
@@ -119,24 +146,6 @@
   </url>
   
   <url>
-    <loc>https://naihee.com/site/census/index.html</loc>
-    
-    <lastmod>2025-03-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/life/games/index.html</loc>
-    
-    <lastmod>2025-03-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://naihee.com/life/animation/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
@@ -146,34 +155,7 @@
   </url>
   
   <url>
-    <loc>https://naihee.com/life/movies/index.html</loc>
-    
-    <lastmod>2025-03-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://naihee.com/categories/index.html</loc>
-    
-    <lastmod>2025-03-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/box/pdf/index.html</loc>
-    
-    <lastmod>2025-03-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/box/air/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
@@ -192,6 +174,24 @@
   
   <url>
     <loc>https://naihee.com/box/nav/index.html</loc>
+    
+    <lastmod>2025-03-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/box/air/index.html</loc>
+    
+    <lastmod>2025-03-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/box/pdf/index.html</loc>
     
     <lastmod>2025-03-25</lastmod>
     
