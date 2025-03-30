@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://naihee.com/life/animation/index.html</loc>
+    <loc>https://naihee.com/life/games/index.html</loc>
     
     <lastmod>2025-03-30</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://naihee.com/life/games/index.html</loc>
+    <loc>https://naihee.com/life/animation/index.html</loc>
     
     <lastmod>2025-03-30</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://naihee.com/box/air/index.html</loc>
+    <loc>https://naihee.com/box/pdf/index.html</loc>
     
     <lastmod>2025-03-30</lastmod>
     
@@ -174,6 +174,15 @@
   
   <url>
     <loc>https://naihee.com/box/gallery/index.html</loc>
+    
+    <lastmod>2025-03-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/box/air/index.html</loc>
     
     <lastmod>2025-03-30</lastmod>
     
@@ -192,15 +201,6 @@
   
   <url>
     <loc>https://naihee.com/box/nav/index.html</loc>
-    
-    <lastmod>2025-03-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/box/pdf/index.html</loc>
     
     <lastmod>2025-03-30</lastmod>
     
@@ -254,13 +254,6 @@
 
   
   <url>
-    <loc>https://naihee.com/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2025-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://naihee.com/tags/Markdown/</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -269,6 +262,13 @@
   
   <url>
     <loc>https://naihee.com/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -298,14 +298,14 @@
 
   
   <url>
-    <loc>https://naihee.com/categories/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://naihee.com/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://naihee.com/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://naihee.com/categories/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
