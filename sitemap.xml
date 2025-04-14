@@ -29,60 +29,6 @@
   </url>
   
   <url>
-    <loc>https://naihee.com/social/fcircle/index.html</loc>
-    
-    <lastmod>2025-04-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/social/link/index.html</loc>
-    
-    <lastmod>2025-04-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/manifest.json</loc>
-    
-    <lastmod>2025-04-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/package.json</loc>
-    
-    <lastmod>2025-04-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/life/music/index.html</loc>
-    
-    <lastmod>2025-04-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naihee.com/personal/about/index.html</loc>
-    
-    <lastmod>2025-04-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://naihee.com/personal/bb/index.html</loc>
     
     <lastmod>2025-04-14</lastmod>
@@ -128,7 +74,34 @@
   </url>
   
   <url>
-    <loc>https://naihee.com/life/animation/index.html</loc>
+    <loc>https://naihee.com/social/link/index.html</loc>
+    
+    <lastmod>2025-04-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/social/fcircle/index.html</loc>
+    
+    <lastmod>2025-04-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/manifest.json</loc>
+    
+    <lastmod>2025-04-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/package.json</loc>
     
     <lastmod>2025-04-14</lastmod>
     
@@ -146,7 +119,34 @@
   </url>
   
   <url>
+    <loc>https://naihee.com/life/animation/index.html</loc>
+    
+    <lastmod>2025-04-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naihee.com/life/movies/index.html</loc>
+    
+    <lastmod>2025-04-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/life/music/index.html</loc>
+    
+    <lastmod>2025-04-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naihee.com/personal/about/index.html</loc>
     
     <lastmod>2025-04-14</lastmod>
     
