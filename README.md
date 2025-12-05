@@ -1,6 +1,6 @@
 ## NaiHeのいえ
 
-🌐 My Website : [NaiHeのいえ](https://www.naihee.cn)
+🌐 My Website : [NaiHeのいえ](https://www.naihee.com)
 
 
 ## 许可证
@@ -8,4 +8,4 @@
 
 
 ---
-![:name](https://count.naihee.cn/@NaiHe-github-blog?theme=rule34)
+![:name](https://count.naihee.com/@NaiHe-github-blog?theme=rule34)

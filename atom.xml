@@ -3,11 +3,11 @@
   <title>NaiHeのいえ</title>
   
   
-  <link href="https://naihee.cn/atom.xml" rel="self"/>
+  <link href="https://naihee.com/atom.xml" rel="self"/>
   
-  <link href="https://naihee.cn/"/>
-  <updated>2023-12-30T07:02:20.690Z</updated>
-  <id>https://naihee.cn/</id>
+  <link href="https://naihee.com/"/>
+  <updated>2025-03-09T14:19:17.000Z</updated>
+  <id>https://naihee.com/</id>
   
   <author>
     <name>NaiHe</name>
@@ -17,28 +17,57 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>PDF</title>
-    <link href="https://naihee.cn/98579906/"/>
-    <id>https://naihee.cn/98579906/</id>
-    <published>2023-12-30T06:57:57.000Z</published>
-    <updated>2023-12-30T07:02:20.690Z</updated>
+    <title>音乐播放器</title>
+    <link href="https://naihee.com/75a8ed31/"/>
+    <id>https://naihee.com/75a8ed31/</id>
+    <published>2025-03-08T06:16:10.000Z</published>
+    <updated>2025-03-09T14:19:17.000Z</updated>
     
-    <content type="html"><![CDATA[<iframe src='/pdfjs/web/viewer.html?file=' style='width:100%;height:500px'></iframe>]]></content>
-    
-    
-    <summary type="html">在线PDF</summary>
+    <content type="html"><![CDATA[<h2 id="一个基于Aplayer和MetingJS的静态音乐播放器">一个基于<a href="https://github.com/DIYgod/APlayer">Aplayer</a>和<a href="https://github.com/metowolf/MetingJS">MetingJS</a>的静态音乐播放器</h2><h3 id="播放器地址"><strong>播放器地址</strong></h3><p><strong><a href="https://music.naihee.com">https://music.naihee.com</a> / <a href="https://naihee.com/life/music/">https://naihee.com/life/music</a></strong></p><h4 id="基本操作">基本操作</h4><p><code>Space空格键</code>：暂停/播放音乐</p><p><code>上/下方向键</code>：增加/减少音量</p><p><code>左/右方向键</code>：上一曲/下一曲</p><h4 id="参数说明">参数说明</h4><ol><li><p><code>server</code>：数据源</p><p><code>netease </code>网易云音乐(默认)  <em>支持 网易云音乐 VIP 歌曲</em></p><p><code>tencent </code>QQ音乐</p><p><em>注：由于服务器在非中国大陆地区(Vercel)，不保证 QQ音乐 解析可用</em></p></li><li><p><code>id</code>：播放列表的id，可以从音乐歌单分享的链接中获取</p></li><li><p><code>type</code>（可选）：</p><p>播放列表的类型，例如song（单曲）, playlist（歌单，默认）, search（搜索结果）, artist（歌手）</p></li></ol><h4 id="默认播放参数">默认播放参数</h4><p>​    <code>id=3778678&amp;server=netease</code>(<a href="https://music.163.com/#/discover/toplist?id=3778678">网易云热歌</a>)</p><h3 id="MetingAPI地址"><strong>MetingAPI地址</strong></h3><p><strong><a href="https://meting.naihee.com/api">https://meting.naihee.com/api</a></strong></p><h4 id="参数说明-2">参数说明</h4><ol><li><p><code>server</code>： 数据源</p><p><code>netease </code> 网易云音乐(默认) <em>支持 网易云音乐 VIP 歌曲</em></p><p><code>tencent</code>  QQ音乐</p><p><em>注：由于服务器在非中国大陆地区(Vercel)，不保证 QQ音乐 解析可用</em><br>​</p></li><li><p><code>type</code>： 类型</p><ul><li><code>name</code> 歌曲名</li><li><code>artist</code> 歌手</li><li><code>url</code> 链接</li><li><code>pic</code> 封面</li><li><code>lrc</code> 歌词</li><li><code>song</code> 单曲</li><li><code>playlist</code> 歌单</li></ul></li><li><p><code>id</code>：类型ID（封面ID/单曲ID/歌单ID）</p></li></ol><h4 id="默认参数">默认参数:</h4><p>​    <code>type: playlist</code><br>​    <code>id: 3778678</code><br>​    <code>server: netease</code></p><h3 id="api示例"><strong>api示例</strong></h3><p><a href="https://meting.naihee.com/api?type=url&amp;id=1969519579">https://meting.naihee.com/api?type=url&amp;id=1969519579</a></p><p><a href="https://meting.naihee.com/api?type=url&amp;id=416892104">https://meting.naihee.com/api?type=url&amp;id=416892104</a></p><p><a href="https://meting.naihee.com/api?type=song&amp;id=591321">https://meting.naihee.com/api?type=song&amp;id=591321</a></p><p><a href="https://meting.naihee.com/api?type=playlist&amp;id=2619366284">https://meting.naihee.com/api?type=playlist&amp;id=2619366284</a></p>]]></content>
     
     
+    <summary type="html">一个基于Aplayer和MetingJS的静态音乐播放器</summary>
     
     
-    <category term="pdf" scheme="https://naihee.cn/tags/pdf/"/>
+    
+    <category term="技术笔记" scheme="https://naihee.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="工具" scheme="https://naihee.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="音乐" scheme="https://naihee.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="网站" scheme="https://naihee.com/tags/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="前端" scheme="https://naihee.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>云空调</title>
+    <link href="https://naihee.com/7138682c/"/>
+    <id>https://naihee.com/7138682c/</id>
+    <published>2025-03-07T00:55:17.000Z</published>
+    <updated>2025-03-09T11:19:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<script>    // 使用严格模式提高代码安全性    'use strict';    // 使用对象存储样式，避免重复的 style 属性赋值    const htmlStyles = {        margin: '0',        padding: '0',        height: '100%',        overflow: 'hidden'    };    const bodyStyles = {        ...htmlStyles, // 复用 html 的样式        backgroundColor: 'white' // 添加背景色到 body    };    const iframeStyles = {        position: 'fixed',        top: '0',        left: '0',        width: '100vw',        height: '100vh',        border: 'none',        zIndex: '9999'    };    // 创建并配置 iframe 的函数    function createIframe() {        const iframe = document.createElement('iframe');        iframe.src = 'https://ac.naihee.com';        Object.assign(iframe.style, iframeStyles);        return iframe;    }    // 初始化页面    function initializePage() {        // 一次性应用所有样式        Object.assign(document.documentElement.style, htmlStyles);        Object.assign(document.body.style, bodyStyles);                // 清空并添加 iframe        document.body.innerHTML = '';        const iframe = createIframe();        document.body.appendChild(iframe);                return iframe;    }    // 使用 requestAnimationFrame 替代 setInterval 以获得更好的性能    function monitorIframe(iframe) {        let isRunning = false;                function checkIframe() {            if (!isRunning && !document.body.contains(iframe)) {                isRunning = true;                document.body.innerHTML = '';                document.body.appendChild(iframe);                isRunning = false;            }            requestAnimationFrame(checkIframe);        }                requestAnimationFrame(checkIframe);    }    // 执行初始化    const iframe = initializePage();    monitorIframe(iframe);</script>]]></content>
+    
+    
+    <summary type="html">云空调</summary>
+    
+    
+    
+    <category term="在线工具" scheme="https://naihee.com/categories/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具" scheme="https://naihee.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
-    <link href="https://naihee.cn/2013454d/"/>
-    <id>https://naihee.cn/2013454d/</id>
+    <link href="https://naihee.com/2013454d/"/>
+    <id>https://naihee.com/2013454d/</id>
     <published>2023-12-10T10:00:00.000Z</published>
     <updated>2023-12-10T10:00:00.000Z</updated>
     
@@ -49,12 +78,12 @@
     
     
     
-    <category term="演示" scheme="https://naihee.cn/categories/%E6%BC%94%E7%A4%BA/"/>
+    <category term="演示" scheme="https://naihee.com/categories/%E6%BC%94%E7%A4%BA/"/>
     
     
-    <category term="Markdown" scheme="https://naihee.cn/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://naihee.com/tags/Markdown/"/>
     
-    <category term="外挂标签" scheme="https://naihee.cn/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    <category term="外挂标签" scheme="https://naihee.com/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
